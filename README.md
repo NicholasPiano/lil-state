@@ -8,3 +8,4 @@ Try accessing through the console:
 * UI.getComponent('client-sidebar')
 * UI.states
 * UI.globalStates
+* UI.changeState('content-state')
