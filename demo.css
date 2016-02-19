@@ -1,0 +1,31 @@
+/*
+
+	Customise background and interface elements.
+
+*/
+/*
+
+Sidebars
+
+*/
+
+.sidebar {
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	overflow-y: auto;
+	width: 200px;
+	height: 70%;
+	transform: translateY(-50%);
+	border: 1px solid black;
+}
+
+.sidebar.mini {
+	width: 50px;
+}
+
+#state-label {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
